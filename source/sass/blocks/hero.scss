@@ -1,0 +1,35 @@
+.hero {
+
+}
+
+.hero .container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "info img";
+  background-color: #FEB822;
+  padding: 0;
+  border-left: 20px solid #FEFEFE;
+  border-right: 20px solid #FEFEFE;
+}
+.hero__title {
+  grid-area: info;
+  margin: auto 0 110px 40px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 25px;
+  color: #1E1E1E;
+}
+.hero__link {
+  grid-area: info;
+  margin: auto 0 35px 40px;
+  font-size: 16px;
+  line-height: 25px;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 15px 22px;
+}
+.hero__img {
+  grid-area: img;
+  margin: 0 0 0 auto;
+}
