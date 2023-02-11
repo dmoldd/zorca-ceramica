@@ -1,0 +1,39 @@
+.citation {
+  margin: 200px 0 0 0;
+}
+
+.citation .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.citation__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.citation__text {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.citation__link {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #1E1E1E;
+  width: 100%;
+  display: block;
+
+  img {
+    display: inline-block;
+    width: 30px;
+    height: auto;
+    margin: 0 0 2px 0;
+  }
+}

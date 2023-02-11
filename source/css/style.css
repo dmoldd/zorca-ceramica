@@ -339,6 +339,7 @@ ul, li {
 
 .popular-goods__item-title {
   margin: 10px 0 0 0;
+  text-transform: uppercase;
 }
 
 .popular-goods__item-price {
@@ -395,5 +396,190 @@ ul, li {
 }
 .categories__item:hover {
   color: #FEB822;
+}
+
+.citation {
+  margin: 200px 0 0 0;
+}
+
+.citation .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.citation__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.citation__text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.citation__link {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #1E1E1E;
+  width: 100%;
+  display: block;
+}
+.citation__link img {
+  display: inline-block;
+  width: 30px;
+  height: auto;
+  margin: 0 0 2px 0;
+}
+
+.actions {
+  margin: 150px 0 40px 0;
+}
+
+.actions .container {
+  position: relative;
+}
+
+.actions__title {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.actions__link-all-items {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #1E1E1E;
+  display: block;
+}
+.actions__link-all-items img {
+  display: inline-block;
+  width: 30px;
+  height: auto;
+  margin: 0 0 2px 0;
+}
+
+.actions__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actions__item {
+  position: relative;
+  margin: 0 20px 0 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.actions__item:last-child {
+  margin: 0;
+}
+
+.actions__item-title {
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+}
+
+.actions__item-price {
+  margin: 10px 0 0 0;
+  text-align: right;
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  color: #8E8E8E;
+}
+
+.actions__before {
+  position: absolute;
+  bottom: 1px;
+  right: 144px;
+}
+
+.actions__next {
+  position: absolute;
+  bottom: 1px;
+  right: 20px;
+}
+
+.online-course {
+  margin: 200px 0 0 0;
+}
+
+.online-course .container {
+  min-height: 700px;
+  background-image: url(../img/online-course/1.jpg), url(../img/online-course/2.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 620px, top 0px right 20px;
+}
+
+.online-course__title {
+  margin: 0;
+  padding: 20px 0 50px 0;
+  max-width: 458px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #1E1E1E;
+}
+
+.online-course__text {
+  margin: 0 0 40px 0;
+  max-width: 395px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1E1E1E;
+  display: block;
+}
+.online-course__text:last-of-type {
+  margin: 0;
+}
+
+.online-course__link-subscribe {
+  display: inline-block;
+  font-size: 26px;
+  line-height: 25px;
+  color: #1E1E1E;
+  border: 1px solid black;
+  padding: 28px 117px;
+  margin: 40px 0 0 0;
+}
+
+.carousel {
+  margin: 200px 0 150px 0;
+}
+
+.carousel .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.carousel__title {
+  width: 100%;
+  text-transform: lowercase;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.page-footer .container {
+  border-top: 1px solid gray;
 }
 /*# sourceMappingURL=style.css.map */

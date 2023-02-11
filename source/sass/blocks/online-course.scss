@@ -1,0 +1,44 @@
+.online-course {
+  margin: 200px 0 0 0;
+}
+
+.online-course .container {
+  min-height: 700px;
+  background-image: url(../img/online-course/1.jpg), url(../img/online-course/2.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 620px, top 0px right 20px;
+}
+
+.online-course__title {
+  margin: 0;
+  padding: 20px 0 50px 0;
+  max-width: 458px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #1E1E1E;
+}
+
+.online-course__text {
+  margin: 0 0 40px 0;
+  max-width: 395px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1E1E1E;
+  display: block;
+
+  &:last-of-type {
+    margin: 0;
+  }
+}
+
+.online-course__link-subscribe {
+  display: inline-block;
+  font-size: 26px;
+  line-height: 25px;
+  color: #1E1E1E;
+  border: 1px solid black;
+  padding: 28px 117px;
+  margin: 40px 0 0 0;
+}

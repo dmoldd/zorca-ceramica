@@ -1,0 +1,25 @@
+
+.carousel {
+  margin: 200px 0 150px 0;
+}
+
+.carousel .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.carousel__title {
+  width: 100%;
+  text-transform: lowercase;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.carousel__img {
+  // display: inline-block;
+}
