@@ -1,24 +1,10 @@
 .main-nav {
   margin: 23px 0 22px 0;
-  width: 100%;
+  width: fit-content;
   display: flex;
   position: relative;
 }
 
 .main-nav__link {
   margin: 0 17px 0 0;
-
-  &--favorite {
-    margin: 0 30px 0 auto;
-  }
-
-  &--buy {
-    margin: 0 10px 0 0;
-  }
-
-  &--logo {
-    position: absolute;
-    right: 50%;
-    transform: translate(50%, 0);
-  }
 }
