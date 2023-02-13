@@ -163,7 +163,6 @@ template {
 .container {
   margin: 0 auto;
   height: 100%;
-  width: 100%;
   width: 1600px;
   padding: 0 20px;
 }
