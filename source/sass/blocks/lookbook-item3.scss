@@ -1,0 +1,58 @@
+.lookbook-item3 {
+  margin: 250px 0 0 0;
+}
+
+.lookbook-item3 .container {
+  display: grid;
+  grid-template-columns: 1fr 240px 319px 612px;
+  grid-template-rows: 291px 1fr;
+  grid-template-areas: "figure1 figure2 figure3 figure4" "text text text figure4";
+
+  figure:nth-child(1) {
+    grid-area: figure1;
+    margin: 0;
+  }
+
+  figure:nth-child(2) {
+    grid-area: figure2;
+    margin: 0;
+  }
+
+  figure:nth-child(3) {
+    grid-area: figure3;
+    margin: 0;
+
+    .lookbook-item3__img-text {
+      text-align: right;
+    }
+  }
+
+  figure:nth-child(4) {
+    grid-area: figure4;
+    margin: 0;
+
+    .lookbook-item3__img-text {
+      text-align: right;
+    }
+  }
+}
+
+.lookbook-item3__img-text {
+  margin: 0 0 5px 0;
+}
+
+.lookbook-item3__img {
+
+}
+
+.lookbook-item3__text {
+  grid-area: text;
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  white-space: pre-wrap;
+  max-width: 620px;
+  margin: auto 0 0 0;
+}

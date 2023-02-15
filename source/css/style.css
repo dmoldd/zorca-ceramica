@@ -663,4 +663,197 @@ label p {
   width: 20px;
   height: auto;
 }
+
+.lookbook-item1 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.lookbook-item1__img-text {
+  margin: 0 0 5px 0;
+}
+
+figure:last-of-type .lookbook-item1__img-text {
+  text-align: right;
+}
+
+.lookbook-item1__text {
+  font-size: 100px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  max-width: 928px;
+  margin: 100px 0 0 0;
+  white-space: pre-wrap;
+}
+
+.lookbook-item2 {
+  margin: 270px 0 0 0;
+}
+
+.lookbook-item2 .container {
+  display: grid;
+  grid-template-columns: 612px 250px 1fr;
+  grid-template-rows: 321px 1fr;
+  gap: 20px;
+  grid-template-areas: "firuge1 firuge2 firuge3" "firuge1 text text";
+}
+.lookbook-item2 .container figure:nth-child(1) {
+  grid-area: firuge1;
+  margin: 0;
+}
+.lookbook-item2 .container figure:nth-child(2) {
+  grid-area: firuge2;
+  margin: 0;
+}
+.lookbook-item2 .container figure:nth-child(3) {
+  grid-area: firuge3;
+  margin: 0 0 0 46px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.lookbook-item2 .container figure:nth-child(3) .lookbook-item2__img-text {
+  text-align: center;
+}
+
+.lookbook-item2__img-text {
+  margin: 0 0 5px 0;
+}
+
+.lookbook-item2__text {
+  grid-area: text;
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  white-space: pre-wrap;
+  max-width: 620px;
+  margin: 60px 0 0 0;
+}
+
+.lookbook-item3 {
+  margin: 250px 0 0 0;
+}
+
+.lookbook-item3 .container {
+  display: grid;
+  grid-template-columns: 1fr 240px 319px 612px;
+  grid-template-rows: 291px 1fr;
+  grid-template-areas: "figure1 figure2 figure3 figure4" "text text text figure4";
+}
+.lookbook-item3 .container figure:nth-child(1) {
+  grid-area: figure1;
+  margin: 0;
+}
+.lookbook-item3 .container figure:nth-child(2) {
+  grid-area: figure2;
+  margin: 0;
+}
+.lookbook-item3 .container figure:nth-child(3) {
+  grid-area: figure3;
+  margin: 0;
+}
+.lookbook-item3 .container figure:nth-child(3) .lookbook-item3__img-text {
+  text-align: right;
+}
+.lookbook-item3 .container figure:nth-child(4) {
+  grid-area: figure4;
+  margin: 0;
+}
+.lookbook-item3 .container figure:nth-child(4) .lookbook-item3__img-text {
+  text-align: right;
+}
+
+.lookbook-item3__img-text {
+  margin: 0 0 5px 0;
+}
+
+.lookbook-item3__text {
+  grid-area: text;
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  white-space: pre-wrap;
+  max-width: 620px;
+  margin: auto 0 0 0;
+}
+
+.lookbook-item4 {
+  margin: 250px 0 0 0;
+}
+
+.lookbook-item4 .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lookbook-item4__img-text {
+  margin: 0 0 5px 0;
+}
+
+.lookbook-item4__img {
+  border-top: 30px solid #FEB822;
+  border-bottom: 30px solid #FEB822;
+  border-left: 25px solid #FEB822;
+  border-right: 25px solid #FEB822;
+}
+
+.lookbook-item4__text {
+  width: 100%;
+  padding: 0 316px 0 0;
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.lookbook-item5 {
+  margin: 250px 0 200px 0;
+}
+
+.lookbook-item5 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.lookbook-item5 .container figure:nth-of-type(1) .lookbook-item5__img-text img,
+.lookbook-item5 .container figure:nth-of-type(3) .lookbook-item5__img-text img {
+  width: 20px;
+  height: auto;
+  margin: 0 0 0 5px;
+}
+.lookbook-item5 .container figure:nth-of-type(2) {
+  position: relative;
+}
+.lookbook-item5 .container figure:nth-of-type(2) .lookbook-item5__img-text:nth-of-type(1) {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 0 5px auto;
+  font-size: 64px;
+  line-height: 75px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.lookbook-item5 .container figure:nth-of-type(2) .lookbook-item5__img-text:nth-of-type(2) {
+  transform: rotate(90deg);
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  bottom: 61px;
+  right: -90px;
+}
+
+.lookbook-item5__img-text {
+  display: flex;
+  margin: 0 0 5px 0;
+}
 /*# sourceMappingURL=style.css.map */

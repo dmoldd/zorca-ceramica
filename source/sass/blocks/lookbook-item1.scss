@@ -1,0 +1,25 @@
+
+.lookbook-item1 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.lookbook-item1__img-text {
+  margin: 0 0 5px 0;
+}
+
+figure:last-of-type .lookbook-item1__img-text {
+  text-align: right;
+}
+
+.lookbook-item1__text {
+  font-size: 100px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  max-width: 928px;
+  margin: 100px 0 0 0;
+  white-space: pre-wrap;
+  }
