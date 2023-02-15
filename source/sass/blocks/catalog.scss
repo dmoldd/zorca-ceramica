@@ -1,0 +1,43 @@
+.catalog {
+
+}
+
+.catalog .container {
+  display: flex;
+}
+
+.catalog__nav {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 25px 0 0;
+  width: 370px;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #8E8E8E;
+}
+
+.catalog__nav-link {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border: 1px solid #E7E7E7;
+
+  &--active {
+    color: #1E1E1E;
+  }
+
+  span {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.3em 0.45em;
+    border-radius: 50%;
+  }
+
+  &:hover span {
+    background-color: #FEB822;
+  }
+}
