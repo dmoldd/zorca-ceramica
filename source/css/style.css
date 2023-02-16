@@ -867,8 +867,8 @@ figure:last-of-type .lookbook-item1__img-text {
 .catalog__nav {
   display: flex;
   flex-direction: column;
-  margin: 90px 25px 0 0;
-  width: 370px;
+  margin: 90px 20px 0 0;
+  width: 375px;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
@@ -880,7 +880,7 @@ figure:last-of-type .lookbook-item1__img-text {
   display: flex;
   justify-content: space-between;
   padding: 12px 0;
-  border: 1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7;
 }
 .catalog__nav-link--active {
   color: #1E1E1E;
@@ -895,5 +895,48 @@ figure:last-of-type .lookbook-item1__img-text {
 }
 .catalog__nav-link:hover span {
   background-color: #FEB822;
+}
+
+.catalog__goods {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.catalog__goods-title {
+  margin: 40px 0 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.catalog__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 375px);
+  grid-auto-flow: dense;
+  gap: 20px;
+}
+
+.catalog__item {
+  position: relative;
+}
+.catalog__item--big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.catalog__item-title {
+  margin: 5px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.catalog__item-add-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
