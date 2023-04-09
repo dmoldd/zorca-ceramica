@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zorca Ceramica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__body">
+  <header class="page-header">
+    <div class="container">
+      <a class="page-header__link page-header__link--logo" href="#">
+        <img src="img/main-logo.png" alt="Zorca Ceramica">
+      </a>
+      <nav class="main-nav">
+        <a class="main-nav__link" href="#">Каталог</a>
+        <a class="main-nav__link" href="#">Онлайн-курс</a>
+        <a class="main-nav__link" href="#">О бренде</a>
+        <a class="main-nav__link" href="#">FAQ</a>
+      </nav>
+      <a class="page-header__link page-header__link--favorite" href="">
+        <img src="img/svg/favorite.svg" alt="Избранное">
+      </a>
+      <a class="page-header__link page-header__link--buy" href="">
+        <img src="img/svg/buy.svg" alt="Корзина">
+      </a>
+    </div>
+  </header>
+  <main class="maincontent">
+    <section class="item-card">
+      <div class="container">
+        <div class="item-card__slider">
+          <img class="item-card__img" src="img\good-cards\1\1.jpg" alt="Товар">
+          <img class="item-card__img" src="img\good-cards\1\2.jpg" alt="Товар">
+        </div>
+        <div class="item-card__info">
+          <h2 class="item-card__title">Тарелка желтая цветастая
+            <a class="item-card__like" href="">
+              <img src="img/svg/favorite.svg" alt="Избранное">
+            </a>
+          </h2>
+          <p class="item-card__price">1800 р.</p>
+          <p class="item-card__desc">Кружка из полуфарфора, 100% ручная работа. Расписана вручную. Так как это ручная работа, все кружки разные и форма, а также цвет может отличаться от фото.</p>
+          <p class="item-card__in-stock">В наличии: <span class="item-card__in-stock-count">4</span> шт.</p>
+          <div class="item-card__count">
+            <a class="item-card__remove-count">-</a>
+            <p class="item-card__current-count">1</p>
+            <a class="item-card__add-count">+</a>
+          </div>
+          <a class="item-card__buy" href="">Купить</a>
+          <p class="item-card__other-info">Эксплуатация</p>
+        </div>
+      </div>
+    </section>
+    <section class="carousel">
+      <div class="container">
+        <h2 class="carousel__title">@zorca_ceramica</h2>
+        <a href="#" class="carousel__img"><img src="img/carousel/1.jpg" alt="Товар"></a>
+        <a href="#" class="carousel__img"><img src="img/carousel/2.jpg" alt="Товар"></a>
+        <a href="#" class="carousel__img"><img src="img/carousel/3.jpg" alt="Товар"></a>
+        <a href="#" class="carousel__img"><img src="img/carousel/4.jpg" alt="Товар"></a>
+        <a href="#" class="carousel__img"><img src="img/carousel/5.jpg" alt="Товар"></a>
+        <a href="#" class="carousel__img"><img src="img/carousel/6.jpg" alt="Товар"></a>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="page-footer__inner">
+        <img class="page-footer__img" src="img/main-logo.png" alt="Zorca Ceramica">
+      </div>
+      <div class="page-footer__inner">
+        <nav class="page-footer__nav">
+          <a href="" class="page-footer__nav-link">О бренде</a>
+          <a href="" class="page-footer__nav-link">Онлайн-курс</a>
+          <a href="" class="page-footer__nav-link">FAQ</a>
+          <a href="" class="page-footer__nav-link">Оплата</a>
+          <a href="" class="page-footer__nav-link">Доставка</a>
+        </nav>
+      </div>
+      <div class="page-footer__inner page-footer__inner--contacts">
+        <p class="page-footer__text">Контакты</p>
+        <p class="page-footer__text">mail@gmail.com</p>
+        <p class="page-footer__text">+7 999 123 45 67</p>
+        <p class="page-footer__text">Виктория Иванова</p>
+        <p class="page-footer__text">Мастерская</p>
+        <p class="page-footer__text">Санкт-Петербург, ул. Александра Грина, д. 1</p>
+      </div>
+      <div class="page-footer__inner page-footer__inner--subscribe">
+        <p class="page-footer__text">ПОДПИСКА НА НОВОСТИ И АКЦИИ</p>
+        <form class="page-footer__form" action="">
+          <input class="page-footer__input" type="text" placeholder="zakaz@zorcaceramica.ru">
+          <label>
+            <input class="page-footer__checkbox" type="checkbox">
+            <p class="page-footer__input-text">Я принимаю условия <a href="#">Политики конфиденциальности</a></p>
+          </label>
+          <button class="page-footer__submit" type="submit"><img src="img/svg/Arrow-right.svg" alt="Стрелка"></button>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
