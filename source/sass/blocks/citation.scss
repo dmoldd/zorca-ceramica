@@ -29,6 +29,23 @@
   color: #1E1E1E;
   width: 100%;
   display: block;
+  text-transform: uppercase;
+  transition: $transition-fast;
+
+  &:hover {
+    color: #FEB822;
+    transition: $transition-fast;
+  }
+
+  & svg path {
+    transition: $transition-fast;
+  }
+
+  &:hover svg path {
+    fill: #FEB822;
+    stroke: #FEB822;
+    transition: $transition-fast;
+  }
 
   img {
     display: inline-block;

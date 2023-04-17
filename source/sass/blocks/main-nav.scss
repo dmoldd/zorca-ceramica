@@ -7,4 +7,15 @@
 
 .main-nav__link {
   margin: 0 17px 0 0;
+  border-bottom: 2px solid transparent;
+  transition: $transition-slow;
+  padding: 0 0 5px 0;
+  text-transform: uppercase;
+  // font-weight: bold;
+
+  &:hover {
+    border-bottom: 2px solid #797979d3;
+    transition: $transition-slow;
+    color: #797979d3;
+  }
 }

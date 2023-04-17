@@ -250,16 +250,43 @@ ul, li {
   flex-direction: column;
 }
 
+.page-header {
+  margin: 0 0 15px 0;
+}
+
 .page-header .container {
   display: flex;
   position: relative;
+  background: linear-gradient(90deg, #E7E7E7 0%, #E7E7E7 100%) no-repeat center bottom/1560px 1px;
 }
 
 .page-header__link--favorite {
   margin: 17px 30px 0 auto;
 }
+.page-header__link--favorite svg path {
+  transition: all 0.2s ease-in-out;
+}
+.page-header__link--favorite svg:hover path {
+  stroke: red;
+  transition: all 0.2s ease-in-out;
+}
+.page-header__link--favorite svg:active path {
+  fill: rgb(255, 84, 84);
+  stroke: rgb(255, 84, 84);
+}
 .page-header__link--buy {
   margin: 17px 10px 0 0;
+}
+.page-header__link--buy svg path {
+  transition: all 0.2s ease-in-out;
+}
+.page-header__link--buy svg:hover path {
+  stroke: red;
+  transition: all 0.2s ease-in-out;
+}
+.page-header__link--buy svg:active path {
+  fill: rgb(255, 84, 84);
+  stroke: rgb(255, 84, 84);
 }
 .page-header__link--logo {
   position: absolute;
@@ -278,6 +305,15 @@ ul, li {
 
 .main-nav__link {
   margin: 0 17px 0 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease-in-out;
+  padding: 0 0 5px 0;
+  text-transform: uppercase;
+}
+.main-nav__link:hover {
+  border-bottom: 2px solid rgba(121, 121, 121, 0.8274509804);
+  transition: all 0.5s ease-in-out;
+  color: rgba(121, 121, 121, 0.8274509804);
 }
 
 .hero .container {
@@ -309,6 +345,16 @@ ul, li {
   width: -moz-fit-content;
   width: fit-content;
   padding: 15px 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  border-radius: 4px;
+}
+.hero__link:hover {
+  background-color: #FEFEFE;
+  color: #FEB822;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
 }
 
 .hero__img {
@@ -342,6 +388,16 @@ ul, li {
 
 .popular-goods__item {
   position: relative;
+  border: 3px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+.popular-goods__item:hover {
+  border: 3px solid #FEB822;
+  transition: all 0.2s ease-in-out;
+}
+.popular-goods__item:hover .popular-goods__item-price {
+  color: rgb(0, 132, 255);
+  transition: all 0.2s ease-in-out;
 }
 
 .popular-goods__item-title {
@@ -356,6 +412,7 @@ ul, li {
   bottom: 1px;
   right: 1px;
   color: #8E8E8E;
+  transition: all 0.2s ease-in-out;
 }
 
 .popular-goods__before {
@@ -363,11 +420,27 @@ ul, li {
   top: 167px;
   right: 144px;
 }
+.popular-goods__before svg path {
+  transition: all 0.2s ease-in-out;
+}
+.popular-goods__before:hover svg path {
+  stroke: #FEB822;
+  fill: #FEB822;
+  transition: all 0.2s ease-in-out;
+}
 
 .popular-goods__next {
   position: absolute;
   top: 167px;
   right: 20px;
+}
+.popular-goods__next svg path {
+  transition: all 0.2s ease-in-out;
+}
+.popular-goods__next:hover svg path {
+  stroke: #FEB822;
+  fill: #FEB822;
+  transition: all 0.2s ease-in-out;
 }
 
 .categories__title {
@@ -397,12 +470,14 @@ ul, li {
   line-height: 40px;
   color: #1E1E1E;
   margin: 30px 80px 0 0;
+  transition: all 0.2s ease-in-out;
 }
 .categories__item:last-child {
   margin: 30px 0 0 0;
 }
 .categories__item:hover {
   color: #FEB822;
+  transition: all 0.2s ease-in-out;
 }
 
 .citation {
@@ -436,6 +511,20 @@ ul, li {
   color: #1E1E1E;
   width: 100%;
   display: block;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+.citation__link:hover {
+  color: #FEB822;
+  transition: all 0.2s ease-in-out;
+}
+.citation__link svg path {
+  transition: all 0.2s ease-in-out;
+}
+.citation__link:hover svg path {
+  fill: #FEB822;
+  stroke: #FEB822;
+  transition: all 0.2s ease-in-out;
 }
 .citation__link img {
   display: inline-block;

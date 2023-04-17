@@ -1,18 +1,49 @@
 .page-header {
+  margin: 0 0 15px 0;
 }
 
 .page-header .container {
   display: flex;
   position: relative;
+
+  background: $header-line;
 }
 
 .page-header__link {
   &--favorite {
     margin: 17px 30px 0 auto;
+
+    svg path {
+      transition: $transition-fast;
+    }
+
+    svg:hover path {
+      stroke: red;
+      transition: $transition-fast;
+    }
+
+    svg:active path {
+      fill: rgb(255, 84, 84);
+      stroke: rgb(255, 84, 84);
+    }
   }
 
   &--buy {
     margin: 17px 10px 0 0;
+
+    svg path {
+      transition: $transition-fast;
+    }
+
+    svg:hover path {
+      stroke: red;
+      transition: $transition-fast;
+    }
+
+    svg:active path {
+      fill: rgb(255, 84, 84);
+      stroke: rgb(255, 84, 84);
+    }
   }
 
   &--logo {

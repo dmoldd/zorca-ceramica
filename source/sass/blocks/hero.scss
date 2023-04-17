@@ -28,6 +28,17 @@
   border: 1px solid black;
   width: fit-content;
   padding: 15px 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: $transition-slow;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #FEFEFE;
+    color: #FEB822;
+    border: 1px solid transparent;
+    transition: $transition-slow;
+  }
 }
 .hero__img {
   grid-area: img;

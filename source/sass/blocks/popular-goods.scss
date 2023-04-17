@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   position: relative;
 }
+
 .popular-goods__title {
   width: 100%;
   text-transform: uppercase;
@@ -14,18 +15,31 @@
   color: #1E1E1E;
   margin: 150px 0 40px 0;
 }
+
 .popular-goods__items {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
+
 .popular-goods__item {
   position: relative;
-  // display: flex;
-  // flex-wrap: wrap;
+  border: 3px solid transparent;
+  transition: $transition-fast;
+
+  &:hover {
+    border: 3px solid #FEB822;
+    transition: $transition-fast;
+  }
+
+  &:hover .popular-goods__item-price {
+    color: rgb(0, 132, 255);
+    transition: $transition-fast;
+  }
 }
 .popular-goods__item-img {
 }
+
 .popular-goods__item-title {
   margin: 10px 0 0 0;
   text-transform: uppercase;
@@ -38,15 +52,37 @@
   bottom: 1px;
   right: 1px;
   color: #8E8E8E;
+  transition: $transition-fast;
 }
 
 .popular-goods__before {
   position: absolute;
   top: 167px;
   right: 144px;
+
+  & svg path {
+    transition: $transition-fast;
+  }
+
+  &:hover svg path {
+    stroke:#FEB822;
+    fill :#FEB822;
+    transition: $transition-fast;
+  }
 }
+
 .popular-goods__next {
   position: absolute;
   top: 167px;
   right: 20px;
+
+  & svg path {
+    transition: $transition-fast;
+  }
+
+  &:hover svg path {
+    stroke:#FEB822;
+    fill :#FEB822;
+    transition: $transition-fast;
+  }
 }
