@@ -1,0 +1,53 @@
+.faq .container {
+  position: relative;
+}
+
+.faq__nav {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  min-width: 350px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.faq__nav-item {
+  margin: 17px auto 17px 0;
+  padding: 0 0 1px 0;
+  border-bottom: 1px solid transparent;
+  width: fit-content;
+
+  &:hover {
+    border-bottom: 1px solid $black;
+  }
+}
+
+.faq__info {
+  margin: 0 0 200px 0;
+}
+
+.faq__title {
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 60px;
+  margin: 0;
+  padding: 300px 0 0 0;
+}
+
+.faq__mini-title {
+  width: 500px;
+  margin: 20px auto 0;
+  font-size: 26px;
+  line-height: 25px;
+
+  &:first-of-type {
+    padding: 60px 0 0 0;
+  }
+}
+
+.faq__desc {
+  width: 500px;
+  margin: 10px auto 0;
+}
